@@ -3,6 +3,7 @@ import { Container, Links } from "./styles";
 import { Button } from "../../components/Button";
 import { Header } from "../../components/Header";
 import { Section } from "../../components/Section";
+import { Tag } from "../../components/Tag";
 
 export function Datails() {
   return (
@@ -21,6 +22,10 @@ export function Datails() {
             </a>
           </li>
         </Links>
+      </Section>
+      <Section title={"Marcadores"}>
+        <Tag texContent={"Express"} />
+        <Tag texContent={"Nodejs"} />
       </Section>
       <Button textContent={"Voltar"} />
     </Container>
