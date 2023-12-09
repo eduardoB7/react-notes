@@ -4,7 +4,7 @@ import { FiPlus, FiX } from "react-icons/fi";
 
 export function NoteItem({ isNew, value, onClick, ...res }) {
   return (
-    <Container isNew={isNew}>
+    <Container $isNew={isNew}>
       <input type="text" value={value} readOnly={!isNew} {...res} />
 
       <button
