@@ -9,6 +9,11 @@ export const Container = styled.div`
   grid-template-areas:
     "header"
     "content";
+
+  > main {
+    grid-area: content;
+    overflow-y: auto;
+  }
 `;
 
 export const FormNew = styled.form`
