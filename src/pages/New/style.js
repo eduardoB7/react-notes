@@ -9,6 +9,11 @@ export const Container = styled.div`
   grid-template-areas:
     "header"
     "content";
+
+  > main {
+    grid-area: content;
+    overflow-y: auto;
+  }
 `;
 
 export const FormNew = styled.form`
@@ -26,5 +31,11 @@ export const FormNew = styled.form`
       font-size: 20px;
       color: ${({ theme }) => theme.COLORS.GRAY_100};
     }
+  }
+
+  .MarkTags {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
   }
 `;
