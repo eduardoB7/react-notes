@@ -6,7 +6,7 @@ import { Section } from "../../components/Section";
 import { Tag } from "../../components/Tag";
 import { ButtonText } from "../../components/ButtonText";
 
-export function Datails() {
+export function Details() {
   return (
     <Container>
       <Header />
