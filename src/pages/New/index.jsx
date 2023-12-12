@@ -1,4 +1,5 @@
 import { Container, FormNew } from "./style";
+import { Link } from "react-router-dom";
 
 import { NoteItem } from "../../components/NoteItem";
 import { Textarea } from "../../components/Texarea";
@@ -16,7 +17,7 @@ export function New() {
         <FormNew>
           <header>
             <h1>Criar nota</h1>
-            <a href="/">voltar</a>
+            <Link to={"/"}>voltar</Link>
           </header>
           <Input placeholder="Título" />
           <Textarea placeholder="Observações" />
