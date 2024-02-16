@@ -2,7 +2,7 @@ import { Container } from "./style";
 
 import { FiPlus, FiX } from "react-icons/fi";
 
-export function NoteItem({ isNew = false, value, onClick, ...res }) {
+export function NoteItem({ isNew = false, value, ...res }) {
   return (
     <Container $isNew={isNew}>
       <input type="text" value={value} readOnly={!isNew} {...res} />

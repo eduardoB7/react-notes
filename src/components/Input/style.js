@@ -5,8 +5,8 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
 
-  background-color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
-  color: ${({ theme }) => theme.COLORS.GRAY_300};
+  /* background-color: ${({ theme }) => theme.COLORS.BACKGROUND_900}; */
+  color: ${({ theme }) => theme.COLORS.ORANGE};
 
   margin-bottom: 8px;
   border-radius: 10px;
@@ -22,7 +22,7 @@ export const Container = styled.div`
     border: 0;
 
     &:placeholder {
-      color: ${({ theme }) => theme.COLORS.GRAY_300};
+      /* color: ${({ theme }) => theme.COLORS.GRAY_300}; */
     }
   }
   > svg {

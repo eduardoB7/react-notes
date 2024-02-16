@@ -18,7 +18,7 @@ export function SignIn() {
 
         <Button textContent={"Entrar"} />
 
-        <Link to={"register"}>Criar conta</Link>
+        <a to={"register"}>Criar conta</a>
       </Form>
       <Background />
     </Container>
